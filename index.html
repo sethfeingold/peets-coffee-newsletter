@@ -9,6 +9,10 @@
     <title>Peet's Coffee</title>
     <style type="text/css">
 
+        table[class="email-content-container"] {
+            width: 600px;
+        }
+
         table[class="clickable-button"]:hover {
             cursor: pointer;
         }
@@ -17,12 +21,22 @@
             font-family: sans-serif;
         }
 
+
         @media screen and (max-width: 600px) {
             table[class="email-content-container"] {
                 width: 100%;
             }
+
+            img[class="3-col-image"] {
+                width: 140px;
+            }
         }
 
+        @media screen and (max-width: 400px) {
+            img[class="3-col-image"] {
+                width: 75px;
+            }
+        }
     </style>
 </head>
 <body>
@@ -31,22 +45,22 @@
         <tr>
             <td>
     <!-- 600PX CONTENT TABLE -->
-                <table class="email-content-container" cellspacing="0" cellpadding="0" border="0" width="600" align="center">
+                <table class="email-content-container" cellspacing="0" cellpadding="0" border="0" align="center">
                     <tr>
                         <td>
                             <table cellspacing="0" cellpadding="0" border="0" width="100%" align="center" style="text-align: center; margin:40px auto;">
                                 <tr>
                                     <td>
                                         <!-- Peet's logo header -->
-                                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Peet%27s_Coffee_logo.svg/800px-Peet%27s_Coffee_logo.svg.png" alt="Peet's coffee logo" style="max-width: 200px; height: auto;">
+                                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Peet%27s_Coffee_logo.svg/800px-Peet%27s_Coffee_logo.svg.png" alt="Peet's coffee logo" style="width: 30%; height: auto;">
                                     </td>
                                 </tr>
                             </table>
-                            <table cellspacing="0" cellpadding="0" border="0" width="100%" style="text-align: center;">
+                            <table cellspacing="0" cellpadding="0" border="0" width="100%" style="text-align: center;" align="center">
                                 <tr>
                                     <td>
                                         <!-- Large coffee image -->
-                                        <img src="https://static.independent.co.uk/s3fs-public/thumbnails/image/2018/06/22/10/coffee-heart-health.jpg?w968h681" alt="coffee with a heart in foam" style="max-width: 600px; height: auto;">
+                                        <img src="https://static.independent.co.uk/s3fs-public/thumbnails/image/2018/06/22/10/coffee-heart-health.jpg?w968h681" alt="coffee with a heart in foam" style="width: 100%; height: auto;">
                                     </td>
                                 </tr>
                             </table>
@@ -100,38 +114,38 @@
                                     <!-- 3 column images row -->
                                     <td>
                                         <!-- coffee mugs pic -->
-                                        <img src="https://i.pinimg.com/originals/92/91/1e/92911e8efc6dfa12cf8e52980a41214f.jpg" alt="heart shaped, interlocked coffee mugs" width="180" height="auto" style="margin: 0 10px;">
+                                        <img class="3-col-image" src="https://i.pinimg.com/originals/92/91/1e/92911e8efc6dfa12cf8e52980a41214f.jpg" alt="heart shaped, interlocked coffee mugs" width="180" height="auto" style="margin: 0 10px;">
                                     </td>
                                     <td>
                                         <!-- coffee and brownies pic -->
-                                        <img src="https://live.staticflickr.com/5663/21226141072_43deca0375_z.jpg" alt="brownies" width="180" height="auto" style="margin: 0 10px;">
+                                        <img class="3-col-image" src="https://live.staticflickr.com/5663/21226141072_43deca0375_z.jpg" alt="brownies" width="180" height="auto" style="margin: 0 10px;">
                                     </td>
                                     <td>
                                         <!-- valentine's day card pic -->
-                                        <img src="https://www.brides.com/thmb/qzbKzRY2sYxZSx9mlR2hDA1hR48=/700x700/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__brides__public__brides-services__production__2019__01__18__5c4234d7f7ae4578d60bed44_french-bulldog-love-valentines-day-heart-glasses-frenchie-gifts-cards-e758a6c39e674633be210024453a4e27.jpg" alt="valentine's day card" width="180" height="auto" style="margin: 0 10px;">
+                                        <img class="3-col-image" width="180" height="auto" src="https://www.brides.com/thmb/qzbKzRY2sYxZSx9mlR2hDA1hR48=/700x700/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__brides__public__brides-services__production__2019__01__18__5c4234d7f7ae4578d60bed44_french-bulldog-love-valentines-day-heart-glasses-frenchie-gifts-cards-e758a6c39e674633be210024453a4e27.jpg" alt="valentine's day card" style="margin: 0 10px;">
                                     </td>
                                 </tr>
                                 <!-- 3 column category title row -->
                                 <tr>
-                                    <td style="width: 150px; padding: 0 20px;">
+                                    <td style="width: 30%; padding: 0 10px;">
                                         <h3 style="font-weight: 400;">Keep the Heat on</h3>
                                     </td>
-                                    <td style="width: 150px; padding: 0 20px;">
+                                    <td style="width: 30%; padding: 0 10px;">
                                         <h3 style="font-weight: 400;">Valentine's Day Brownie</h3>
                                     </td>
-                                    <td style="width: 150px; padding: 0 20px;">
+                                    <td style="width: 30%; padding: 0 10px;">
                                         <h3 style="font-weight: 400;">For that Perfect Moment </h3>
                                     </td>
                                 </tr>
                                 <!-- 3 column category description row -->
                                 <tr>
-                                    <td style="width: 150px; padding: 0 20px;">
+                                    <td style="width: 30%; padding: 0 10px;">
                                         <span style="font-size: 0.8rem;">Nice and hot and fresh. We like our gifts the way we like our coffee.</span> 
                                     </td>
-                                    <td style="width: 150px; padding: 0 20px;">
+                                    <td style="width: 30%; padding: 0 10px;">
                                         <span style="font-size: 0.8rem;">Rich, moist, and chocolatey. A little extra sprinkling of love.</span>
                                     </td>
-                                    <td style="width: 150px; padding: 0 20px;">
+                                    <td style="width: 30%; padding: 0 10px;">
                                         <span style="font-size: 0.8rem;">Send the coffee lover in your life an e-gift card, personalized with a heartfelt message.</span>
                                     </td>
                                 </tr>
@@ -139,18 +153,18 @@
                             <!-- 3 column gift link table -->
                             <table width="100%" cellspacing="0" cellpadding="0" border="0" align="center" style="margin: 30px auto;">
                                     <tr>
-                                        <td style="width: 180px; text-align: center;">
+                                        <td style="width: 30%; text-align: center;">
                                             <a href="#" style="text-transform: uppercase; font-size: 0.9rem; color: rgb(114, 98, 62);">shop gifts</a>        
                                         </td>
-                                        <td style="width: 180px; text-align: center;">
+                                        <td style="width: 30%; text-align: center;">
                                             <a href="#" style="text-transform: uppercase; font-size: 0.9rem; color: rgb(114, 98, 62);">be mine</a>
                                         </td>
-                                        <td style="width: 180px; text-align: center;">
+                                        <td style="width: 30%; text-align: center;">
                                             <a href="#" style="text-transform: uppercase; font-size: 0.9rem; color: rgb(114, 98, 62);">virtual</a>
                                         </td>
                                     </tr>
                             </table>
-                            <table width="120px" cellspacing="0" cellpadding="0" border="0" align="center" style="text-align: center; margin-top: 35px; margin-bottom: 30px;">
+                            <table width="20%" cellspacing="0" cellpadding="0" border="0" align="center" style="text-align: center; margin-top: 35px; margin-bottom: 30px;">
                                 <!-- Social media links -->
                                 <tr>
                                     <td>
